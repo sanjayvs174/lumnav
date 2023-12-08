@@ -1,0 +1,161 @@
+.carousel-caption{
+    text-align: start;
+    bottom: 200px;
+    margin-right: 200px;
+}
+.btn1{
+    background-color: darkmagenta;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+}
+.btn1:hover{
+    background-color: rgb(172, 98, 194);
+}
+.btn2{
+    background-color: rgb(84, 65, 158);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+}
+input{
+    border: none;
+    margin-left: none;
+}
+
+.btn3{
+    margin-bottom:200px;
+}
+@media(max-width:974px)
+    {
+        .carousel-caption{
+            text-align: start;
+        margin-bottom: -100px;
+        font-size: 15px;
+
+        }
+        h1{
+            font-size: 20px;
+        }
+        .btn1{
+            background-color: darkmagenta;
+            border-radius: 30px;
+            color: white;
+            border: none;
+            width: 150px;
+            height: 35px;
+        }
+       
+    }
+    @media(max-width:768px)
+    {
+        .carousel-caption{
+            text-align: start;
+        margin-bottom: -200px;
+        font-size: 12px;
+
+        }
+        h1{
+            font-size: 20px;
+        }
+        .btn1{
+            background-color: darkmagenta;
+            border-radius: 30px;
+            color: white;
+            border: none;
+            width: 150px;
+            height: 35px;
+        }
+        .btn2{
+            background-color: rgb(84, 65, 158);
+            border-radius: 10px;
+            color: white;
+            border: none;
+            width: 150px;
+            height: 35px;
+        }
+    }
+    @media(max-width:586px)
+    {
+        .carousel-caption{
+            text-align: start;
+        margin-bottom: -200px;
+        font-size: 9px;
+
+        }
+        h1{
+            font-size: 15px;
+        }
+        .btn1{
+            background-color: darkmagenta;
+            border-radius: 30px;
+            color: white;
+            border: none;
+            width: 100px;
+            height: 20px;
+        }
+        .btn2{
+            background-color: rgb(84, 65, 158);
+            border-radius: 10px;
+            color: white;
+            border: none;
+            width: 100px;
+            height: 25px;
+        }
+        .j1{
+            font-size: 25px;
+        }
+    }
+    @media(max-width:483px)
+    {
+        .carousel-caption{
+            text-align: start;
+        margin-bottom: -220px;
+        font-size: 6px;
+
+        }
+        h1{
+            font-size: 10px;
+        }
+        .btn1{
+            background-color: darkmagenta;
+            border-radius: 30px;
+            color: white;
+            border: none;
+            width: 80px;
+            height: 15px;
+        }
+        .btn2{
+            background-color: rgb(84, 65, 158);
+            border-radius: 10px;
+            color: white;
+            border: none;
+            width: 80px;
+            height: 25px;
+            margin-left: 170px;
+        }
+        .j1{
+            font-size: 20px;
+            color: rgb(85, 0, 255);
+        }
+        p{
+            font-size: 12px;
+    }
+    .p2{
+        font-size: 12px;
+    }
+    .btn3{
+        background-color: darkmagenta;
+        border-radius: 30px;
+        color: white;
+        border: none;
+        width: 100px;
+        height: 25px;
+        text-align: center;
+
+    }
+}
